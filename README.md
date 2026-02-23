@@ -33,7 +33,7 @@ Everything else is up to you. Find the credentials, explore the system, and coll
 
 ## Quick Start (Recommended)
 
-A pre-built VM image is available on the [Releases](https://github.com/CaptnBash/CTF-LazyAdmin/releases/tag/1.0.0) page. 
+A pre-built VM image is available on the [Releases](https://github.com/CaptnBash/CTF-LazyDev/releases/tag/1.0.0) page. 
 
 Download the `.ova` file, import it into VirtualBox, and start hacking. 🕵️ 
 
@@ -56,8 +56,8 @@ During OS installation, use these settings:
 Once the OS is installed, log in as `root` and run:
 
 ```bash
-git clone https://github.com/CaptnBash/CTF-LazyAdmin.git
-bash CTF-LazyAdmin/install.sh
+git clone https://github.com/CaptnBash/CTF-LazyDev.git
+bash CTF-LazyDev/install.sh
 ```
 
 The script installs all dependencies, configures users, deploys the web application, and places the flags. Once it finishes, reboot or power off the VM. Now you are ready for the challenge.
