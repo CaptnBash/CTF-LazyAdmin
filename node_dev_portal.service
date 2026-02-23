@@ -1,0 +1,14 @@
+[Unit]
+Description=node_dev_portal.service - Node Server for Internal Dev Portal
+After=network.target
+
+[Service]
+User=www-data
+Group=www-data
+WorkingDirectory=/var/www/html
+ExecStart=/usr/bin/node server.js
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,5 @@
+TODO: Confirm the new backup automation is active.
+
+sudo crontab -u root -l (Check for: */2 * * * * /opt/backup.sh)
+
+Note: I set it to run every 2 mins for testing. Move to nightly once the /home/node/scripts/ hooks are finalized.

@@ -1,0 +1,10 @@
+{
+  "name": "ctf-lazydev",
+  "version": "1.0.0",
+  "description": "``` npm init -y npm install express cookie-parser node server.js ```",
+  "main": "server.js",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "express": "^5.2.1"
+  }
+}
