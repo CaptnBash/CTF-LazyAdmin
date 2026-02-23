@@ -13,8 +13,33 @@ The VM hosts a Node.js web application ("Internal Dev Portal") and several syste
 | HTTP    | 3000 | Node.js internal dev portal |
 | SSH     | 22   | Remote shell access |
 
+### Users
 
-## Installation
+- dev
+- www-data
+
+## How to Play
+
+1. Boot the VM
+   - The VM's **IP address** (displayed on the login screen)
+2. Find the **5 flags** on the system, in the format `flag{...}`
+ 
+You know already:
+- A **website** is running on port `3000`
+- **SSH** is available on port `22`
+- Two users exist on the system: `dev` and `www-data`
+
+Everything else is up to you. Find the credentials, explore the system, and collect all flags.
+
+## Quick Start (Recommended)
+
+A pre-built VM image is available on the [Releases](https://github.com/CaptnBash/CTF-LazyAdmin/releases/tag/1.0.0) page. 
+
+Download the `.ova` file, import it into VirtualBox, and start hacking. 🕵️ 
+
+No manual installation required.
+
+## Manual Installation
 
 ### Prerequisites
 
@@ -38,18 +63,6 @@ bash CTF-LazyAdmin/install.sh
 The script installs all dependencies, configures users, deploys the web application, and places the flags. Once it finishes, reboot or power off the VM. Now you are ready for the challenge.
 
 > **Note:** The setup script removes the installation user and cleans up the repo from disk. Make sure you are logged in as `root` when running it.
-
-## How to Play
-
-You know the following:
-
-- The VM's **IP address** (displayed on the login screen)
-- A **website** is running on port `3000`
-- **SSH** is available on port `22`
-- Two users exist on the system: `dev` and `www-data`
-- There are **5 flags** to find, in the format `flag{...}`
-
-Everything else is up to you. Find the credentials, explore the system, and collect all flags.
 
 
 ## Hints
